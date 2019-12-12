@@ -4,10 +4,10 @@ describe '#speak_to_grandma' do
   end
 
   it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do
-    expect(speak_to_grandma('Hi Nana, how are you?')).to eq 'HUH?! SPEAK UP, SONNY!'
+    expect(speak_to_grandma('Hi Nana, how are you?'.upcase)).to eq 'HUH?! SPEAK UP, SONNY!'
   end
 
-  it 'responds with HUH?! SPEAK UP, SONNY! for a second time' do
+ 'responds with HUH?! SPEAK UP, SONNY! for a second time' end
     expect(speak_to_grandma('Hi!')).to eq 'HUH?! SPEAK UP, SONNY!'
   end
 
