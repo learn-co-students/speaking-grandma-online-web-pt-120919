@@ -11,3 +11,13 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+speak_to_grandma = you
+
+if speak_to_grandma == "I LOVE YOU GRANDMA!"
+  puts "I LOVE YOU TOO PUMPKIN!"
+elseif speak_to_grandma == "shouting"
+  puts "NO, NOT SINCE 1938!"
+else speak_to_grandma == "anything else"
+  puts "HUH?! SPEAK UP, SONNY!"
+end
